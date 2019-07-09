@@ -1,3 +1,15 @@
-@import "abstracts";
-@import "functions";
-@import "mixins";
+//Logo
+$logo_font_size:2rem;
+
+//colors
+$color-primary: rgba(50, 187, 229, 0.95);
+$color-primary-text: #fff; //#E9F6FB;
+$color-secondary-text: rgb(233, 88, 127);
+
+//nav link hover
+$color-nav-link-hover: rgba(233, 88, 127, .8);
+
+
+//box colors
+$color-active-link: rgba(255, 255, 255, 0.973);
+

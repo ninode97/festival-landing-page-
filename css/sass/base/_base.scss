@@ -1,4 +1,18 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    font-size: 62.5%; // 1 rem will be equal to 10px ; default browser font-size is 16px so we get 62.5%
+}
+
+body {
+    box-sizing: inherit;
+}
 
 
 

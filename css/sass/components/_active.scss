@@ -1,0 +1,6 @@
+.active--link:link,
+.active--link:visited {
+    background-color: $color-active-link;
+    color: $color-secondary-text;
+    height: 5rem;
+}

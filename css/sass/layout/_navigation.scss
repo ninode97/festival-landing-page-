@@ -1,0 +1,74 @@
+.navigation {
+    width:100%;
+    padding: 1.10rem 0 1.10rem 0;
+
+
+    &__logo {
+        transform:  all .5s;
+        width:auto;
+        font-size: $logo_font_size;
+        margin: 0rem 2rem 0 2rem;
+    }
+    &__logo-svg {
+        transition: all 1.5s ease;
+        padding: 0;
+        margin: 0;
+        height: 60px;
+        width: 60px;
+        fill: white;
+    }
+    &__logo-svg:hover {
+        fill:$color-secondary-text;
+        transform: rotate(360deg);
+        padding: 5px;
+    }
+
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1.75rem;
+        letter-spacing: 2px;
+    }
+
+
+    &__link { 
+        color: $color-primary-text;
+        &:link,
+        &:visited {
+            margin: 1rem;
+            text-decoration: none;
+        }
+
+        &:hover,
+        &:active {
+            color: $color-nav-link-hover;
+            transform: translateY(-5px);
+            border-bottom: solid 0.2rem $color-secondary-text;
+            padding-bottom: 1rem;
+        }
+  
+
+
+        &-active {
+            background-color: $color-active-link;
+            color: $color-secondary-text;
+            align-self: stretch;
+            padding: 1.25rem;
+            box-shadow: 10px 10px solid black;
+        }
+
+        &-active:hover,
+        &-active:active {
+            border-bottom: solid 0.2rem $color-primary;
+        }
+        
+    }
+
+
+}
