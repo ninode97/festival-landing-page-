@@ -2,3 +2,24 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
+
+.heading-primary {
+    text-transform: capitalize;
+    text-align: center;
+    
+    &--big {
+        font-size: $heading-primary--big;
+        color: $color-primary-text;
+    }
+}
+
+.heading-secondary {
+    text-transform: lowercase;
+
+    &--medium {
+        text-align: center;
+        font-size: $heading-secondary--medium;
+        font-style: italic;
+        color:$color-secondary-text;
+    }
+}

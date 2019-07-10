@@ -15,11 +15,72 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400; }
 
+.heading-primary {
+  text-transform: capitalize;
+  text-align: center; }
+  .heading-primary--big {
+    font-size: 8rem;
+    color: #fff; }
+
+.heading-secondary {
+  text-transform: lowercase; }
+  .heading-secondary--medium {
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    color: #e9587f; }
+
+.shadow--1 {
+  box-shadow: 3px 3px 5px 6px #000; }
+
+.text-shadow--1 {
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+
+.text-shadow--2 {
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2); }
+
+.text-shadow--3 {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+
 .active--link:link,
 .active--link:visited {
   background-color: rgba(255, 255, 255, 0.973);
   color: #e9587f;
   height: 5rem; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.festival-preview {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+  .festival-preview__social-icons {
+    height: 100%;
+    padding-top: 5rem; }
+
+.social-icon {
+  display: inline-flex;
+  align-content: space-between; }
+  .social-icon__svg {
+    margin-right: 2rem;
+    height: 4.5rem;
+    width: 4.5rem; }
+    .social-icon__svg--email {
+      fill: #e9587f; }
 
 .header {
   width: 100%;
@@ -72,3 +133,7 @@ body {
       box-shadow: 10px 10px solid black; }
     .navigation__link-active:hover, .navigation__link-active:active {
       border-bottom: solid 0.2rem rgba(50, 187, 229, 0.95); }
+
+.section-festival {
+  position: relative;
+  padding: 20rem 0; }

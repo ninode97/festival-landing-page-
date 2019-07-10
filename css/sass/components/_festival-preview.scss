@@ -1,0 +1,17 @@
+.festival-preview {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    &__caption {
+       // align-self: center;
+    }
+
+    &__social-icons {
+        height: 100%;
+        padding-top: 5rem;
+    }
+
+}
