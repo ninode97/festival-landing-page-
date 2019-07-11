@@ -4,12 +4,16 @@ body {
 }
 
 .heading-primary {
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     
     &--big {
         font-size: $heading-primary--big;
         color: $color-primary-text;
+    }
+
+    &--medium {
+        font-size: $heading-primary--medium;
     }
 }
 

@@ -6,6 +6,14 @@ $color-primary: rgba(50, 187, 229, 0.95);
 $color-primary-text: #fff; //#E9F6FB;
 $color-secondary-text: rgb(233, 88, 127);
 
+//background-colors
+$color-primary-bg-light: rgba(238, 127, 156, .5);
+$color-primary-bg-dark: rgba(100, 13, 36, .9);
+
+//section-backgrounds
+$section-color-1: rgb(233, 88, 127);
+$map-section: linear-gradient($color-primary-bg-light, $color-primary-bg-dark), radial-gradient(#fff, #000);
+
 //nav link hover
 $color-nav-link-hover: rgba(233, 88, 127, .8);
 
@@ -19,5 +27,6 @@ $default-font-size: 1.6rem;
 $heading-primary: 7rem;
 
 $heading-primary--big: 8rem;
+$heading-primary--medium: 5rem;
 
 $heading-secondary--medium: 3rem;

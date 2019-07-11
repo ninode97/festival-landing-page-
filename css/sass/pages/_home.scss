@@ -3,3 +3,13 @@
     padding: 20rem 0;
 
 }
+
+.section-location {
+    padding: 0 .2rem 0 2rem;
+    background-color:$color-primary;
+
+    &--invert {
+        padding: 0 2rem 0 0.5rem;
+        background-color:rgb(233, 88, 127) !important;
+    }
+}
